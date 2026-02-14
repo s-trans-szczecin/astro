@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ConstructionAnimation from '../components/ConstructionAnimation.astro';
+---
+
+<Layout title="Złota Rączka Szczecin | Usługi remontowo-budowlane i montażowe">
+    <section class="space-y-6">
+        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-primary">Usługi dla domu i firmy</p>
+        <h1>Złota Rączka w Szczecinie</h1>
+        <p class="max-w-3xl text-lg leading-relaxed">
+            Kompleksowe prace remontowo-wykończeniowe, montażowe i elektryczne. Działam na terenie całego Szczecina,
+            z naciskiem na dzielnicę Dąbie.
+        </p>
+        <div class="flex flex-wrap gap-4 pt-2">
+            <a href="/uslugi" class="btn btn-lg">Zobacz pełną listę usług</a>
+            <a href="/kontakt" class="btn btn-lg">Skontaktuj się</a>
+        </div>
+    </section>
+
+    <ConstructionAnimation />
+
+    <section class="pt-14">
+        <h2>Najczęściej zamawiane usługi</h2>
+        <ul class="grid gap-3 pt-6 sm:grid-cols-2">
+            <li>Składanie i montaż mebli</li>
+            <li>Wiercenie, montaż karniszy, lamp i plafonów</li>
+            <li>Montaż i wymiana gniazdek oraz osprzętu elektrycznego</li>
+            <li>Prace elektryczne 230V oraz 400V (siła)</li>
+            <li>Szpachlowanie, malowanie i drobne naprawy wykończeniowe</li>
+            <li>Podłączanie zlewów, AGD i armatury</li>
+            <li>Konfiguracja monitoringu i inteligentnego domu</li>
+        </ul>
+    </section>
+
+    <section class="pt-12">
+        <h2>Wideo realizacje (YouTube / Pictory AI)</h2>
+        <p class="pt-3 max-w-3xl opacity-90">
+            Tutaj możesz podpiąć krótkie filmy z realizacji. Wystarczy podmienić poniższe linki na docelowe URL.
+        </p>
+        <ul class="pt-5 space-y-2">
+            <li>• YouTube #1: <a href="#">[wstaw-url-youtube-1]</a></li>
+            <li>• YouTube #2: <a href="#">[wstaw-url-youtube-2]</a></li>
+            <li>• Pictory AI #1: <a href="#">[wstaw-url-pictory-1]</a></li>
+        </ul>
+    </section>
+
+    <section class="pt-10">
+        <p>
+            Kontakt: <a href="tel:+48725144019">+48 725 144 019</a> •
+            <a href="mailto:buduje.remontuje.szczecin@gmail.com">buduje.remontuje.szczecin@gmail.com</a>
+        </p>
+    </section>
+</Layout>
