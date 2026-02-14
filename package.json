@@ -1,0 +1,13 @@
+{
+  "name": "s-trans-szczecin-astro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^3.5.0"
+  }
+}
